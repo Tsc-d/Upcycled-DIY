@@ -1,0 +1,132 @@
+ body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f1ec;
+      color: #4a3e34;
+    }
+
+    .container {
+      max-width: 1490px;
+      margin: 3rem auto;
+      background: #f7efe5;
+      padding: 2rem;
+      border-radius: 1.2rem;
+    }
+
+    .welcome-box {
+      background-color: #d7e4d2;
+      padding: 3rem;
+      border-radius: 1rem;
+      margin-bottom: 3rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .welcome-text h1 {
+      margin: 0;
+      font-size: 3rem;
+      color: #3a4733;
+      text-align: center;
+    }
+
+    .welcome-text p {
+      color: #5a4e40;
+      text-align: center;
+    }
+
+    .rules-box {
+      background-color: #eee4d3;
+      padding: 1.5rem;
+      border-radius: 1rem;
+      margin-bottom: 2rem;
+      height: 500px;
+    }
+
+    .rules-box h3 {
+      font-size: 21px;
+      margin-bottom: 1rem;
+      color: #6d5b4f;
+    }
+
+    .rules-columns {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .rules-columns div {
+      font-size: 15px;
+      color: #5f5245;
+    }
+
+    .image-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+      gap: 0.5rem;
+      margin-top: 1rem;
+    }
+
+    .image-gallery img {
+      width: 100%;
+      border-radius: 0.5rem;
+      height: 300px;
+    }
+
+    .info-boxes {
+    padding: 4em 2em;
+    background-color: #f0e7d8; 
+    text-align: center;
+}
+
+.info-boxes h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: #4b6043; 
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.info-box {
+    background-color: #d3c8aa; 
+    padding: 2em;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+}
+
+.info-box h3 {
+    margin-top: 0;
+    color: #4b6043;
+    font-size: 1.2em;
+}
+
+.info-box p {
+    font-size: 1em;
+    color: #5c5c5c;
+    margin-bottom: 15px;
+}
+
+.read-more-btn {
+    padding: 0.75em 2em;
+    background-color: #647a6c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.read-more-btn:hover {
+    background-color: #678b74;
+}
+
+    
